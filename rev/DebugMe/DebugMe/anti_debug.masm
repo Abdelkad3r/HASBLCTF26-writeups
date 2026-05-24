@@ -1,0 +1,19 @@
+public crash
+public myIsDebuggerPresent
+
+.code
+
+crash proc
+ xor eax,eax
+ push rax
+ ret
+crash endp
+
+myIsDebuggerPresent proc
+ xor rcx,rcx
+ mov rax, qword ptr gs:[rcx+60h]
+ movzx eax, byte ptr [rax+2h]
+ ret
+myIsDebuggerPresent endp
+
+end

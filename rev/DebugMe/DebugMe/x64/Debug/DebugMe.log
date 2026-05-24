@@ -1,0 +1,8 @@
+﻿  Assembling anti_debug.masm...
+  antidebug.c
+  main.c
+C:\Users\efnan\Desktop\yks_soru_yazım\rev\DebugMe\DebugMe\antidebug.c(81,14): warning C4113: 'FARPROC' differs in parameter lists from 'NTSTATUS (__cdecl *)(PHANDLE,ACCESS_MASK,PVOID,HANDLE,PVOID,PVOID,ULONG,SIZE_T,SIZE_T,SIZE_T,PVOID)'
+C:\Users\efnan\Desktop\yks_soru_yazım\rev\DebugMe\DebugMe\antidebug.c(81,14): warning C4133: 'initializing': incompatible types - from 'FARPROC' to 'NTSTATUS (__cdecl *)(PHANDLE,ACCESS_MASK,PVOID,HANDLE,PVOID,PVOID,ULONG,SIZE_T,SIZE_T,SIZE_T,PVOID)'
+  Generating Code...
+C:\Users\efnan\Desktop\yks_soru_yazım\rev\DebugMe\DebugMe\antidebug.c(93,1): warning C4715: 'DebugMe': not all control paths return a value
+  DebugMe.vcxproj -> C:\Users\efnan\Desktop\yks_soru_yazım\rev\DebugMe\x64\Debug\DebugMe.exe
