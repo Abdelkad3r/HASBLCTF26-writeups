@@ -179,7 +179,7 @@ challenge.
 
 ## Files
 
-* [`solve.py`](./solve.py) — argparse-driven solver. Pulls
+* [`solve.py`](https://github.com/Abdelkad3r/hasblctf-2026/blob/main/web/lineup-challenge/solve.py) — argparse-driven solver. Pulls
   `/players.txt`, applies the four hint filters, brute-forces the
   residual 12,960-tuple search space with 30 concurrent workers, prints
   the platform-form flag. Standard library only (`urllib.request`,

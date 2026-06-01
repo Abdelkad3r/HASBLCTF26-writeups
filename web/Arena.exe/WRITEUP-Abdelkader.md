@@ -116,7 +116,7 @@ reaching it.
 
 ## Files
 
-* [`solve.py`](./solve.py) — argparse-driven end-to-end solver. Posts
+* [`solve.py`](https://github.com/Abdelkad3r/hasblctf-2026/blob/main/web/arena-exe/solve.py) — argparse-driven end-to-end solver. Posts
   the inflated coin balance, redeems the token, submits the leet seed,
   and prints the flag. Standard library only (`urllib.request`).
 
