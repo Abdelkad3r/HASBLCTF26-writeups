@@ -193,7 +193,7 @@ were never renamed.
 
 ## Files
 
-* [`solve.py`](./solve.py) — argparse-driven solver. Registers a user
+* [`solve.py`](https://github.com/Abdelkad3r/hasblctf-2026/blob/main/web/dteam/solve.py) — argparse-driven solver. Registers a user
   with the `{{config['SECRET_KEY']}}` username, places an order,
   downloads the PDF, extracts SECRET_KEY, forges the Flask session with
   a `last_order` SSTI payload, re-downloads the PDF, prints the flag.
